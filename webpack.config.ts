@@ -7,7 +7,9 @@ module.exports = {
   entry: {
     main: './src/index.tsx',
   },
-  plugins: [new VanillaExtractPlugin(), "@vanilla-extract/babel-plugin", new MiniCssExtractPlugin()
+  plugins: [
+    new VanillaExtractPlugin(),
+    new MiniCssExtractPlugin(),
   ],
   module: {
     rules: [

@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import { themeClass, exampleStyle } from './App.css.ts';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React app - Create react app. With TS, Storybook, and Vanilla Extract.</h1>
+    <div className={themeClass}>
+      <h1 className={exampleStyle}>React app - Create react app. With TS, Storybook, and Vanilla Extract.</h1>
     </div>
   );
 }

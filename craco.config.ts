@@ -22,7 +22,9 @@ module.exports = {
           }
         ]
       })
-      return config;
+      return config: <any>;
     },
   }
 };
+
+export { }
